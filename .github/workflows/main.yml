@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'royyzz'
+        description: 'abigoblin86'
         required: true
-        default: 'royyzz'
+        default: 'abigoblin86'
       agent_description:
-        description: 'royyzz'
+        description: 'abigoblin86'
         required: true
-        default: 'royyzz AI Agent'
+        default: 'abigoblin86 AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "royyzz", "description": "royyzz AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "abigoblin86", "description": "abigoblin86 AI Agent"}'
